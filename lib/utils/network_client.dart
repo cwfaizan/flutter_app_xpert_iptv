@@ -12,8 +12,8 @@ class NetworkClient {
   NetworkClient() {
     Helper.findUserInfo();
     BaseOptions baseOptions = BaseOptions(
-      receiveTimeout: 20000,
-      connectTimeout: 30000,
+      // receiveTimeout: 20000,
+      // connectTimeout: 30000,
       // baseUrl: baseUrl,
       maxRedirects: 2,
     );
